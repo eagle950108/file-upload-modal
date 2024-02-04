@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.MuiDialog-paper::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+
+.MuiDialog-paper::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5); /* Change thumb color */
+  border-radius: 10px; /* Add rounded corners */
+}
